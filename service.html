@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Public/Stylesheet/service.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <img src="./Public/Media/logo.png" alt="">
+            <a href="index.html">HOME</a>
+        </div>
+    </div>
+    <div class="page1">
+        <div class="text">
+            <h1>caterMe, food service with love.</h1>
+            <p>Barbeque Nation introduces ATMOSFIRE, a catering service designed to suit all your party requirements- be
+                it birthdays, weddings, anniversaries, corporate parties or home get- togethers. We provide customised
+                catering solutions- any menu, any location, any occasion to ensure your guests are well taken care of.
+                View Brochure/Menu and Image Gallery</p>
+            <p id="ins">Please share your details below and we will get back to you at the earliest</p>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST" class="details">
+            <div class="heading1">
+                <h6>ENTER NAME</h6>
+                <h6>MOBILE NUMBER</h6>
+            </div>
+            <div class="container1">
+                <input type="hidden" name="access_key" value="18dfe022-4956-488f-99c5-6f8274179ae5">
+                <input type="text" name="name" placeholder="Enter your name" class="conatcts-inputs" required>
+                <input type="text" name="Phone No." placeholder="Enter mobile number" class="conatcts-inputs" required>
+            </div>
+            <div class="heading2">
+                <h6>NUMBER OF PERSON</h6>
+                <h6>EVENT DATE</h6>
+            </div>
+            <div class="container2">
+                <input type="text" name="No. of persons" placeholder="XXXX" class="conatcts-inputs" required>
+                <input type="text" name="Event date" placeholder="dd-mm-yyyy" class="conatcts-inputs" required>
+            </div>
+            <div class="heading3">
+                <h6>EMAIL</h6>
+                <h6>EVENT LOCATION</h6>
+            </div>
+            <div class="container3">
+                <input type="text" name="Email" placeholder="Enter your mail address" class="conatcts-inputs" required>
+                <input type="text" name="Location" placeholder="City" class="conatcts-inputs" required>
+            </div>
+            <div class="heading4">
+                <h6>SPECIAL REQUEST</h6>
+            </div>
+            <div class="container4">
+                <input type="text" name="Special Request" placeholder="Please share any special request"
+                    class="conatcts-inputs" required>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
