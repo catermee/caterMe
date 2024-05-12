@@ -410,49 +410,44 @@ z-index: 10;
   display: flex;
 
 }
-@media (min-width:375px) {
+
+
+@media only screen and (max-width:500px) {
   .page3{
     margin-top: 8%;
     margin-left: 5%;
     margin-bottom: 4%;
   }
 }
-@media (min-width:414px) {
+@media only screen and (min-width:768px) {
   .page3{
-    margin-top: 8%;
-    margin-left: 6%;
-    margin-bottom: 4%;
-  }
-}
-@media (min-width:430px) {
-  .page3{
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 7%;
     margin-bottom: 4%;
   }
 }
-@media (min-width:768px) {
-  .page3{
-    margin-top: 8%;
-    margin-left: 7%;
-    margin-bottom: 4%;
-  }
-}
-
-@media (min-width:820px) {
+@media only screen and (min-width:820px) {
   .page3{
     margin-top: 5%;
     margin-left: 9%;
     margin-bottom: 4%;
   }
 }
-@media (min-width:1024px) {
+@media only screen and (min-width:1024px) {
   .page3{
     margin-top: 5%;
     margin-left: 18%;
     margin-bottom: 4%;
   }
 }
+ @media only screen and (min-width:1200px) {
+  .page3{
+    margin-top: 5%;
+    margin-left: 28%;
+    margin-bottom: 4%;
+  }
+}
+
 .testimonial-container {
   width: 85%;
   height: 100%;
