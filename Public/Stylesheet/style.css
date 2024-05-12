@@ -156,6 +156,11 @@ section {
     height: 50%;
   }
 }
+@media (max-width:1025px) {
+  .page2{
+    height: 100%;
+  }
+}
 #scroller{
   /* background-color: red; */
 white-space: nowrap;
@@ -350,7 +355,7 @@ z-index: 10;
 }
 .overlay p{
   color: #fff7ec;
-  font-size: 15px;
+  font-size: 1vw;
 
 }
 .card:hover .overlay{
@@ -409,6 +414,28 @@ z-index: 10;
   .page3{
     margin-top: 8%;
     margin-left: 5%;
+    margin-bottom: 4%;
+  }
+}
+@media (max-width:768px) {
+  .page3{
+    margin-top: 8%;
+    margin-left: 7%;
+    margin-bottom: 4%;
+  }
+}
+
+@media (min-width:820px) {
+  .page3{
+    margin-top: 5%;
+    margin-left: 9%;
+    margin-bottom: 4%;
+  }
+}
+@media (min-width:1024px) {
+  .page3{
+    margin-top: 5%;
+    margin-left: 18%;
     margin-bottom: 4%;
   }
 }
