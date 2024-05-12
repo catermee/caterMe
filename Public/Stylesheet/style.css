@@ -410,14 +410,28 @@ z-index: 10;
   display: flex;
 
 }
-@media (max-width:650px) {
+@media (min-width:375px) {
   .page3{
     margin-top: 8%;
     margin-left: 5%;
     margin-bottom: 4%;
   }
 }
-@media (max-width:768px) {
+@media (min-width:414px) {
+  .page3{
+    margin-top: 8%;
+    margin-left: 6%;
+    margin-bottom: 4%;
+  }
+}
+@media (min-width:430px) {
+  .page3{
+    margin-top: 8%;
+    margin-left: 7%;
+    margin-bottom: 4%;
+  }
+}
+@media (min-width:768px) {
   .page3{
     margin-top: 8%;
     margin-left: 7%;
